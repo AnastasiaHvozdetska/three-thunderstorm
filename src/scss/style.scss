@@ -1,0 +1,77 @@
+
+@import "./sample.scss";
+
+
+/* Так підключаю шрифти */
+
+@font-face {
+	font-family: "Fontello";
+	font-style: normal;
+	font-weight: 400;
+	src: url(../fonts/fontello.ttf);
+}
+
+@font-face {
+	font-family: 'MontserratBold';
+	font-style: normal;
+	font-weight: 700;
+	src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+	font-family: 'MontserratExtraBold';
+	font-style: normal;
+	font-weight: 800;
+	src: url(../fonts/Montserrat-ExtraBold.ttf);
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+	outline: none;
+}
+
+html,
+body {
+	overflow-x: hidden;
+}
+
+html.non-scroll {
+	overflow: hidden;
+}
+
+button {
+	cursor: pointer;
+	border: none;
+}
+
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'MontserratMedium';
+	overflow-x: hidden;
+	position: relative;
+	font-size: 13px;
+	color: #494949;
+}
+
+main {
+	min-height: 100vh;
+	width: 100%;
+	background-color: #E5E5E5;
+}
+
+img {
+	width: 100%;
+	display: block;
+}
+
+a {
+	display: block;
+	color: $dark_gray;
+}
+
+@import './media.scss';

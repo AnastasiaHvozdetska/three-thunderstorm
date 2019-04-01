@@ -1,0 +1,15 @@
+<% var data = {
+  title: "Home",
+  author: "Anastasia Hvozdetska",
+}; %>
+
+
+<%= _.template(require('./../includes/header.html'))(data) %>
+
+<main>
+
+	<%= _.template(require('./../includes/item.html'))(data) %>
+
+</main>
+
+<%= _.template(require('./../includes/footer.html'))(data) %>
