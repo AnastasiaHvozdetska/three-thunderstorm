@@ -13,7 +13,8 @@
     "autoprefixer": "^9.4.10",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
-    "postcss-cli": "^6.1.2"
+    "postcss-cli": "^6.1.2",
+    "three": "^0.104.0"
   },
   "devDependencies": {
     "clean-webpack-plugin": "^1.0.0",
