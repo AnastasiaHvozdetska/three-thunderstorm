@@ -25,7 +25,7 @@
     "localtunnel-webpack-plugin": "^1.0.0",
     "mini-css-extract-plugin": "^0.5.0",
     "ngrock-webpack-plugin": "0.0.2",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.13.1",
     "postcss-loader": "^3.0.0",
     "prettier": "^1.15.3",
     "raw-loader": "^1.0.0",
