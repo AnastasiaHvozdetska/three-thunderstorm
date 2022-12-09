@@ -11,8 +11,8 @@
   },
   "dependencies": {
     "autoprefixer": "^9.4.10",
-    "body-parser": "^1.18.3",
-    "express": "^4.16.4",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
     "postcss-cli": "^6.1.2",
     "three": "^0.104.0"
   },
